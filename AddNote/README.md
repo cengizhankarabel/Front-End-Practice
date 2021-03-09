@@ -1,5 +1,5 @@
-<b> You can add and delete your notes.
-HTML + CSS + Jquery </b>
+<b> You can add and delete your notes. </b>
+<h1> HTML + CSS + Jquery </h1>
 
 ![image](https://user-images.githubusercontent.com/69279953/110523912-cc846800-8123-11eb-9b7c-a63499e7e5cf.png)
 
