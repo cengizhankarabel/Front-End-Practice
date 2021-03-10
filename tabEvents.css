@@ -1,0 +1,61 @@
+html{
+	height: 100%;
+}
+body{
+	background: #30E8BF;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #FF8235, #30E8BF);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #FF8235, #30E8BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1{
+	
+	font-size: 4rem;
+	color: white;
+	text-align: center;
+}
+
+.tabs{
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.tab-list{
+	padding-bottom: 1rem;
+}
+
+.tab{
+	border-left: 1px solid transparent;
+	color: rgba(255,255,255, .6);
+	background-color: rgba(10, 20, 30, .2);
+	border-radius: 20px;
+	text-decoration: none;
+	padding: 0.5rem 2.35rem;
+
+}
+
+.tab.active{
+	color: white;
+	text-decoration: underline;
+	font-size: 20px;
+	font-style: italic;
+	background: rgba(255,255,255, .1);
+
+}
+
+.tab-content{
+	background: #EBF1F4;
+	padding: 1.5rem;
+	display: none;
+	color: #1F3B4B;
+	border-radius: 20px;
+}
+
+.show{
+	display: block;
+}
+
+.cp-text{ 
+	margin-left: 420px;
+	color: rgba(0,0,0,.7); text-shadow: 0 1px rgba(255, 255, 255, 0.1);
+}
